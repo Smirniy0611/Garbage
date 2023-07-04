@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/css.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/" name="">
+        <h1> Расчёт стоимости </h1>
+        <fieldset>
+            <legend> Калькулятор расчёта стоимости работ </legend>
+
+            <label> Строительный объём: </label>
+            <input name="volume" value="1000">
+            <span>м<sup>3</sup></span>
+            <br />
+
+            <label> Высота здания в метрах: </label>
+            <input name="height" value="15"> <span>м.</span>
+            <br />
+
+            <label> Назначение здания: </label>
+            <select name="purpose">
+                <option value="Жилищное"> Жилищно-гражданское </option>
+                <option value="Промышленное"> Промышленное </option>
+            </select>
+            <br />
+
+            <label> Этажность здания: </label>
+            <select name="floor">
+                <option value="Одноэтажное"> Одноэтажное </option>
+                <option value="Многоэтажное"> Многоэтажное </option>
+            </select>
+            <br />
+
+            <label> Категория сложности здания: </label>
+            <select name="category_1">
+                <option value="1"> 1 </option>
+                <option value="2" selected> 2 </option>
+                <option value="3"> 3 </option>
+            </select>
+            <br />
+
+            <label> Сложность обмерных работ: </label>
+            <select name="category_2">
+                <option value="1"> 1 </option>
+                <option value="2" selected> 2 </option>
+                <option value="3"> 3 </option>
+            </select>
+            <br />
+
+            <label> Сложность обследовательских работ: </label>
+            <select name="category_2">
+                <option value="1"> 1 </option>
+                <option value="2" selected> 2 </option>
+                <option value="3"> 3 </option>
+            </select>
+            <br />
+
+            <div>
+                <input type="submit" value="Рассчитать" id="submit" />
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

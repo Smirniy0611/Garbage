@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Каскадирование правил CSS</title>
+		<style type="text/css">
+			* {
+				font-family: Arial, Verdana, sans-serif;}
+			h1 {
+				font-family: "Courier New", Courier, monospace;}
+			i {
+				color: green;}
+			i {
+				color: red;}
+			b {
+				color: pink;}
+			p b {
+				color: blue !important;}
+			p b {
+				color: violet;}
+			p#intro {
+				font-size: 100%;}
+			p {
+				font-size: 75%;}
+		</style>
+	</head>
+	<body>
+		<h1>Картофель</h1>
+		<p id="intro">Существуют <i>десятки</i> сортов <b>картофеля</b>.</p>
+		<p>Обычно они подразделяются на ранние, среднеранние и поздние.</p>
+	</body>
+</html>
