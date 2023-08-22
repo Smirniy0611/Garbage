@@ -1,0 +1,10 @@
+pip install django
+
+django-admin startproject samplesite
+	setting.py - модуль с настройками проекта
+	urls.py - модуль маршрутами
+
+python manage.py runserver
+
+
+
